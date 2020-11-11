@@ -1,11 +1,17 @@
 .nav-container {
-  background-color: $navBackgroundColor;
   display: flex;
   justify-content: space-between;
-  // position: fixed;
-  width: 100%;
+  background-color: $navBackgroundColor;
+}
+
+.nav-container {
+  @include defaultPadding;
 }
 
 .nav-container__logo {
-  zoom: 0.75;
+  zoom: 0.7;
+}
+
+.nav-container__link {
+  padding: 0 20px;
 }

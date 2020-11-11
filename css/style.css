@@ -107,15 +107,16 @@ body {
   font-family: Arial, Helvetica, sans-serif, black;
   margin: 0 auto; }
 
-.general-div {
-  width: 100%;
-  max-width: 1200px; }
-
 .nav-container {
-  background-color: white;
   display: flex;
   justify-content: space-between;
-  width: 100%; }
+  background-color: white; }
+
+.nav-container {
+  padding: 20px 420px; }
 
 .nav-container__logo {
-  zoom: 0.75; }
+  zoom: 0.7; }
+
+.nav-container__link {
+  padding: 0 20px; }
