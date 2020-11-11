@@ -5,7 +5,8 @@
 }
 
 .nav-container {
-  @include defaultPadding;
+  padding: 19px 400px;
+  border-bottom: 1px solid rgb(222, 222, 222);
 }
 
 .nav-container__logo {
@@ -16,7 +17,7 @@
 .nav-container__link:link,
 .nav-container__link:visited {
   font-size: 14px;
-  padding: 25px 35px;
+  padding: 30px 35px;
   text-align: center;
   text-decoration: none;
   color: $linkColor;
