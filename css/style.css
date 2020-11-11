@@ -113,10 +113,22 @@ body {
   background-color: white; }
 
 .nav-container {
-  padding: 20px 420px; }
+  padding: 20px 412px; }
 
 .nav-container__logo {
-  zoom: 0.7; }
+  zoom: 0.71; }
 
-.nav-container__link {
-  padding: 0 20px; }
+.nav-container__link,
+.nav-container__link:link,
+.nav-container__link:visited {
+  font-size: 14px;
+  padding: 25px 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #856cb8;
+  font-weight: bold;
+  box-sizing: border-box; }
+
+.nav-container__link:hover {
+  color: #4a6194;
+  border-bottom: 2px solid #4a6194; }

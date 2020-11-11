@@ -9,9 +9,22 @@
 }
 
 .nav-container__logo {
-  zoom: 0.7;
+  zoom: 0.71;
 }
 
-.nav-container__link {
-  padding: 0 20px;
+.nav-container__link,
+.nav-container__link:link,
+.nav-container__link:visited {
+  font-size: 14px;
+  padding: 25px 35px;
+  text-align: center;
+  text-decoration: none;
+  color: $linkColor;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.nav-container__link:hover {
+  color: rgb(74, 97, 148);
+  border-bottom: 2px solid rgb(74, 97, 148);
 }
