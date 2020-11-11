@@ -104,10 +104,18 @@ table {
 
 body {
   background: #f0f0f0;
-  font-family: Arial, Helvetica, sans-serif, black; }
+  font-family: Arial, Helvetica, sans-serif, black;
+  margin: 0 auto; }
+
+.general-div {
+  width: 100%;
+  max-width: 1200px; }
 
 .nav-container {
   background-color: white;
   display: flex;
   justify-content: space-between;
   width: 100%; }
+
+.nav-container__logo {
+  zoom: 0.75; }

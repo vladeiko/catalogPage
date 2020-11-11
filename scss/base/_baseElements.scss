@@ -1,4 +1,10 @@
 body {
   background: $backgroundColor;
   font-family: $defaultFontFamily;
+  margin: 0 auto;
+}
+
+.general-div {
+  width: 100%;
+  max-width: 1200px;
 }
