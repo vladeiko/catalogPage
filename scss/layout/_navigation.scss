@@ -1,4 +1,7 @@
-.nav-bar {
+.nav-container {
+  background-color: $navBackgroundColor;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  // position: fixed;
+  width: 100%;
 }
