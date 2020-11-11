@@ -1,7 +1,13 @@
+@import "./base/reset";
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/navigation";
-@import "./base/reset";
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/variables";
+
+body {
+  margin: 0;
+  background-color: $backgroundColor;
+  font-family: $fontDefault;
+}
