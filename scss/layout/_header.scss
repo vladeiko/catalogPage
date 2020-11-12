@@ -4,13 +4,19 @@
 }
 
 .header__h1 {
-  padding: 60px 0;
+  padding: 60px 400px;
   font-size: 48px;
   font-weight: normal;
 }
 
 .header__input {
-  text-align: left;
-  width: 320px;
-  padding: 0 160px;
+  margin: 0 200px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.header__select {
+  margin: 0 200px;
+  width: 100%;
+  max-width: 200px;
 }
